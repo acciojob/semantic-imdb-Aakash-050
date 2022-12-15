@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+body{
+    background-color: black;
+    color: lightgray;
+    margin: 15px;
+    font-size: 20px;
+}
+header h1{
+    display: inline-block;
+}
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: orange;
+    color: black;
+    position: relative;
+    top: -195px;
+    right: 250px;
+  }
+  details p{
+    width: 500px;
+  }
+.actor-parent img{
+    width: 80px;
+    height: 80px;
+}
+section{
+    width:70vw;
+    padding: 10px 15px;
+    margin: 10px 0px;
+}
+summary:hover{
+    cursor: pointer;
+}
+.summary p{
+    background-color: orange;
+    color: black;
+}
